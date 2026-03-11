@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date of Birth Form</title>
+</head>
+<body>
+    <h2>Date of Birth Form</h2>
+    <form onsubmit="return validateDOB()">
+        Day: <input type="text" id="dd" size="2"> /
+        Month: <input type="text" id="mm" size="2"> /
+        Year: <input type="text" id="yyyy" size="4"><br><br>
+        <span id="dobError" style="color:red"></span><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="dob.js"></script>
+</body>
+</html>
