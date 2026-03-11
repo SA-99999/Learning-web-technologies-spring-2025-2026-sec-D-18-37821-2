@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Step 3: Gender</title>
+</head>
+<body>
+    <h2>Step 3: Gender</h2>
+
+    <form onsubmit="return validateGender()">
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male" value="Male"> Male
+            <input type="radio" name="gender" id="female" value="Female"> Female
+            <input type="radio" name="gender" id="other" value="Other"> Other
+        </fieldset><br>
+
+        <span id="genderError" style="color:red"></span><br><br>
+        <input type="submit" value="Next">
+    </form>
+
+    <script src="gender.js"></script>
+</body>
+</html>
